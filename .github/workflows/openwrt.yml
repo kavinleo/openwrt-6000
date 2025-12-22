@@ -2,8 +2,6 @@ name: openwrt.yml
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 19 * * *
 
 env:
   REPO_URL: https://github.com/King-Of-Knights/openwrt-6.x
