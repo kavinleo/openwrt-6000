@@ -160,4 +160,5 @@ jobs:
         tag: ${{ env.FIRMWARE_TAG }}
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: ${{ env.FIRMWARE_PATH }}/*
-        body: | openwrt
+        body: | 
+        openwrt
