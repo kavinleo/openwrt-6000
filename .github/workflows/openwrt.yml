@@ -161,4 +161,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: ${{ env.FIRMWARE_PATH }}/*
         body: | 
-        openwrt
+          openwrt
