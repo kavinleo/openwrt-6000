@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/King-Of-Knights/openwrt-6.x
+  REPO_URL: https://github.com/kavinleo/openwrt
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-6.12-wifi.config
   DIY_SCRIPT: libwrt.sh
